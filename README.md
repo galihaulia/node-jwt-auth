@@ -1,8 +1,20 @@
-# node_JWT
-## Architecture
-PostgreSQL, Node JS, Express JS, JWT
+# Node.js JWT Auth 🔐
 
-## step to run in local
-1. run ```npm install```
-2. prepare local database in [config](https://github.com/galihaulia/node_JWT/blob/master/config/config.json)
-3. run ```npm test``` 
+Simple JWT-based authentication with Handlebars view rendering.
+
+## 🛠 Stack
+- Node.js
+- Express.js
+- JWT (jsonwebtoken)
+- Handlebars (hbs)
+- dotenv
+
+## 🚀 Features
+- Login/Register with JWT
+- Token verification
+- Session-like flow without cookies
+
+## ⚙️ Setup
+```bash
+npm install
+npm run dev
